@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.jhipster.demo.notification",
+    "packageFolder": "com/jhipster/demo/notification",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "notification",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "buildTool": "gradle",
+    "serverPort": "8083",
+    "jhipsterVersion": "5.7.0",
+    "skipUserManagement": true,
+    "clientPackageManager": "npm",
+    "jwtSecretKey": "NzIyMWRjNzY0NTQyZjBkM2ZmMjdiNjBlMWJkODY5MzljOTYzMjRhOTIxMmQyOGQxMzk2MDczZTZhOGM3YTM1M2JhOGIwMzUxOTQyMjMxZTgzOTFiZjE0ZWMxMDA0Zjg5MzAyZmFiNzc3NjExZjZlZTg3MTE2ZGViNDdjNzM1NGE=",
+    "otherModules": []
+  },
+  "entities": [
+    "Notification"
+  ]
+}

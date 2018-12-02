@@ -1,0 +1,50 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.jhipster.demo.store",
+    "packageFolder": "com/jhipster/demo/store",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": false,
+    "skipServer": false,
+    "testFrameworks": [
+      "protractor"
+    ],
+    "websocket": false,
+    "baseName": "store",
+    "applicationType": "gateway",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "buildTool": "gradle",
+    "clientFramework": "react",
+    "useSass": true,
+    "jhipsterVersion": "5.7.0",
+    "skipUserManagement": false,
+    "clientPackageManager": "npm",
+    "serverPort": "8080",
+    "jwtSecretKey": "ZjEyNWYwY2I2NDE4ZThjYjlmOGQ3NTM0M2EyNTJjMGNhNGY4N2JlOTk2NDE2ZTgzNGE0N2YxNzJmN2Y3NDBkZDU4NmVlZjNjMTE5MjlkNGI1MjA0NWQ2YjFkZmQ3ZTQ4MWQzOGU3NzdlMTAzZGNhMjE2ODAwN2I5ZGQ0MzhlZTk=",
+    "otherModules": []
+  },
+  "entities": [
+    "Customer",
+    "Product",
+    "ProductCategory",
+    "ProductOrder",
+    "OrderItem",
+    "Invoice",
+    "Shipment",
+    "Notification"
+  ]
+}

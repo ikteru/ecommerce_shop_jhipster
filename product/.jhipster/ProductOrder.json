@@ -1,0 +1,59 @@
+{
+    "name": "ProductOrder",
+    "fields": [
+        {
+            "fieldName": "placedDate",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "OrderStatus",
+            "fieldValues": "COMPLETED,PENDING,CANCELLED",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "code",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "invoiceId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "customer",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "orderItem",
+            "otherEntityName": "orderItem",
+            "otherEntityRelationshipName": "order"
+        }
+    ],
+    "changelogDate": "20181201170644",
+    "entityTableName": "product_order",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": [
+        "store",
+        "product"
+    ],
+    "microserviceName": "product"
+}
